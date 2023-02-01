@@ -1,0 +1,11 @@
+# ninja log v5
+0	602	6969867734728469	CMakeFiles/untitled.dir/main.cpp.obj	9778f0c7437f1016
+607	803	6969867736648609	untitled.exe	261af487ef5b78b9
+9	97	6969872292440823	CMakeFiles/untitled.dir/someDateRequest.cpp.obj	247577be6094208e
+3	604	6969872297526620	CMakeFiles/untitled.dir/main.cpp.obj	9778f0c7437f1016
+604	716	6969872298596630	untitled.exe	79638c7cc2e4f438
+3	691	6969875820548870	CMakeFiles/untitled.dir/main.cpp.obj	9778f0c7437f1016
+2	1001	6969876430990181	CMakeFiles/untitled.dir/someDateRequest.cpp.obj	247577be6094208e
+1001	1121	6969876432169579	untitled.exe	79638c7cc2e4f438
+4	555	6969878204569593	CMakeFiles/untitled.dir/main.cpp.obj	9778f0c7437f1016
+556	659	6969878205569498	untitled.exe	79638c7cc2e4f438
