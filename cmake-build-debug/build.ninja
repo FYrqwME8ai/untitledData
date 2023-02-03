@@ -55,8 +55,8 @@ build CMakeFiles/untitled.dir/main.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Use
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
 
-build CMakeFiles/untitled.dir/someDateRequest.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/manifest/CLionProjects/untitled/someDateRequest.cpp || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\someDateRequest.cpp.obj.d
+build CMakeFiles/untitled.dir/Date.cpp.obj: CXX_COMPILER__untitled_Debug C$:/Users/manifest/CLionProjects/untitled/Date.cpp || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\Date.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++20
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir
@@ -69,7 +69,7 @@ build CMakeFiles/untitled.dir/someDateRequest.cpp.obj: CXX_COMPILER__untitled_De
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/someDateRequest.cpp.obj
+build untitled.exe: CXX_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.cpp.obj CMakeFiles/untitled.dir/Date.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir
