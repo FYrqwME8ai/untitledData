@@ -15,7 +15,7 @@ Date::Date(long long value){
 
 int Date::timeIntervalSince1970() {
 
-    return (long long)std::chrono::system_clock::to_time_t(now);
+    return std::chrono::system_clock::to_time_t(now);
 }
 
 int Date::day() {
