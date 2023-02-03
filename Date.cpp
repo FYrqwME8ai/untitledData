@@ -1,5 +1,4 @@
 #include "Date.h"
-
 #include <algorithm>
 #include <ctime>
 #include <sstream>
@@ -13,8 +12,7 @@ Date::Date(long long value){
     now = std::chrono::system_clock::from_time_t (value);
 }
 
-int Date::timeIntervalSince1970() {
-
+long long Date::timeIntervalSince1970() {
     return std::chrono::system_clock::to_time_t(now);
 }
 

@@ -11,7 +11,7 @@ public:
 private:
     std::chrono::time_point<std::chrono::system_clock> now;
 public:
-    int timeIntervalSince1970();
+    long long timeIntervalSince1970();
     int month();
     int year();
     int day();
