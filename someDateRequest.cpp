@@ -9,7 +9,7 @@ Date::Date() {
     now = std::chrono::system_clock::now();
 };
 
-Date::Date(int value){
+Date::Date(long long value){
     now = std::chrono::system_clock::from_time_t (value);
 }
 

@@ -7,7 +7,7 @@
 class Date {
 public:
     Date();
-    Date(int value);
+    Date(long long value);
 private:
     std::chrono::time_point<std::chrono::system_clock> now;
 public:
