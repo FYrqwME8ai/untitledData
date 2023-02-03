@@ -1,27 +1,21 @@
-//
-// Created by manifest on 01.02.2023.
-//
-
 #ifndef UNTITLED_DATE_H
 #define UNTITLED_DATE_H
 
-#include<iostream>
-#include<chrono>
+#include <iostream>
+#include <chrono>
 
-class Date
-{
+class Date {
 public:
-    //Date();
-    //Date(double value);
+    Date();
+    Date(int value);
 private:
-    //double unixDate;
-
+    std::chrono::time_point<std::chrono::system_clock> now;
 public:
     int timeIntervalSince1970();
     int month();
     int year();
     int day();
-    std::string tClock();
+    std::string getClock();
 };
 
 #endif //UNTITLED_DATE_H
