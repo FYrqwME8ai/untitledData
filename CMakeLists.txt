@@ -3,4 +3,4 @@ project(untitled)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(untitled main.cpp someDateRequest.cpp someDateRequest.h)
+add_executable(untitled main.cpp Date.cpp Date.h)
